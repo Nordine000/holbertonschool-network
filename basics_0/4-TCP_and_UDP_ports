@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# affiche les ports en ecoute avec leur PID et nom de programmes
+netstat -lp
