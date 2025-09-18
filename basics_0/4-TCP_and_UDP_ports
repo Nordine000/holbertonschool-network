@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# Script qui affiche les ports TCP et UDP
-
-sudo netstat -lpn
+# Display listening TCP and UDP sockets with PID/program name
+netstat -lntup
+netstat -lxp
