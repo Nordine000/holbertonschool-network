@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# affiche les ports en ecoute avec leur PID et nom de programmes
-netstat -tulnp
+# Script qui affiche les ports TCP et UDP
+
+sudo netstat -lpn
